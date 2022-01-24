@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# auto formatter
+if black -l 120 {{cookiecutter.service_name}}/; then
+    echo auto formatter passed
+else
+    echo auto formatter failed
+    exit 1
+fi
+
+# linter
+
+if flake8 --extend-ignore=E203,W503 --max-line-length=120 {{cookiecutter.service_name}}/; then
+    echo linter passed
+else
+    echo linter failed
+    exit 1
+fi

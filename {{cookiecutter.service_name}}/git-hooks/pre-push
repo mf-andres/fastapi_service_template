@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# tests
+if pytest {{cookiecutter.service_name}}/tests; then
+    echo tests passed
+else
+    echo tests failed
+    exit 1
+fi

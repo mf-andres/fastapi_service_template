@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "a2f60697-33ce-4dff-8c86-3d9ad16dfd0b",
+		"name": "aggregate1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id_\": \"id_\",\n    \"param1\": \"param1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/aggregate1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"aggregate1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
