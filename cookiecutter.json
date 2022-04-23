@@ -2,7 +2,7 @@
     "python_version": "3.9",
     "title": "Authentication Service",
     "description": "This repository contains the implementation of the ... module of the ... project. This module ... to ... based on ...",
-    "authors": "pedro@gmail.com, pablo@gmail.com",
+    "authors": "'pedro@gmail.com', 'pablo@gmail.com'",
     "service_name": "authentication_service",
     "service_name_dash_case": "authentication-service",
     "mongo_database_name": "ace-authentication",
