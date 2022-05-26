@@ -9,7 +9,7 @@ def get_aggregate1():
     return aggregate1
 
 
-def get_aggregate_1_item():
+def get_aggregate1_item():
     id_ = "id_"
     param1 = "param1"
     aggregate1_item = Aggregate1Item(id_=id_, param1=param1)
